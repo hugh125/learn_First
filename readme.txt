@@ -11,3 +11,4 @@ create a new branch is quick.
 
 Creating a new brach is quick.
 >>>>>>> dev
+Creating a new branch is quick & simple.
