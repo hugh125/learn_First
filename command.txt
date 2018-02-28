@@ -52,6 +52,12 @@ git push -u original master
 	还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 git push original master 向远程库提交，提交前在本地执行 git add 和 git commit -m 'log'
 git clone  git@github.com:hugh125/gitskills.git 克隆前，远程需要存在gitskiils库
-git branch
+分支管理
+	git checkout -b dev ==> ①git branch dev;②git checkout dev  创建并切换到分支
+	git branch 			查看当前分支，当前分支前面会标一个*号
+	git checkout master 切换分支
+	git merge dev 		合并分支，合并指定分支到当前分支
+	git branch -D dev 	删除分支
+	
 git checkout -- file 当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时
 git checkout -m
