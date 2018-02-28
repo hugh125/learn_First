@@ -45,8 +45,9 @@
 		如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。
 		如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：ssh-keygen -t rsa -C "你自己的邮件地址"
 
-
-git push original1 master
+git remote add origin git@github.com:hugh125/learngit.git 创建远程库
+git remote rm  origin 删除远程库
+git push original master 向远程库提交
 git clone https://
 git branch
 git checkout -- file 当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时
