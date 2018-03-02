@@ -1,6 +1,6 @@
 创建版本库
-	git config --global user.name "Your Name"
-	git config --global user.email "email@example.com"
+	git config --global user.name "hugh"
+	git config --global user.email "hugh182@qq.com"
 
 	git init 把这个目录变成Git可以管理的仓库
 	git add "file.txt" "file1.txt" 把文件添加到仓库
